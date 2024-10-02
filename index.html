@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainbox">
+      <h1>password Generator</h1>
+      <div class="inputbox">
+        <input
+          type="text"
+          name="password"
+          id="Gpass"
+          disabled
+          placeholder="click on Generator password"
+        />
+        <div class="buttondiv">
+          <button onclick="Generator()">Generator</button>
+          <button onclick="copy()" id="copybut">Copy to Clipboard</button>
+        </div>
+      </div>
+      <div class="option">
+        <div class="number_sec">
+          <span>password Length</span
+          ><input type="number" name="number" id="numLength" />
+        </div>
+        <div class="Uppercase_sec">
+          <span>Include Uppercase letter</span
+          ><input type="checkbox" name="Uppercase" id="UppCheck" />
+        </div>
+        <div class="lowercase_sec">
+          <span>Include lowercase Letter</span
+          ><input type="checkbox" name="lowercase" id="lowCheck" />
+        </div>
+        <div class="number_ch">
+          <span>Include numbers</span
+          ><input type="checkbox" name="numbers" id="numCheck" checked />
+        </div>
+        <div class="Symbols_sec">
+          <span>Include Symbols</span
+          ><input type="checkbox" name="Symbols" id="symCheck" />
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+.mainbox {
+  width: 400px;
+  background-color: #20c611;
+  padding: 50px;
+  border-radius: 10px;
+}
+.mainbox > h1 {
+  color: #fff;
+  margin-block: 10px;
+}
+.inputbox {
+  width: calc(300px - padding);
+}
+.inputbox > input {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid green;
+  margin-bottom: 10px;
+  background-color: #fff;
+  text-align: center;
+}
+.buttondiv {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.buttondiv > button {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(28, 215, 156);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.option {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 5px;
+}
+span {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.number_sec {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.number_sec > input {
+  width: 20%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.Uppercase_sec {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.lowercase_sec {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.number_ch {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.Symbols_sec {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+input[type="checkbox"] {
+  width: 20px;
+  cursor: pointer;
+}
