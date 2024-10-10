@@ -17,6 +17,7 @@ body {
 }
 .mainbox > h1 {
   color: #fff;
+  text-align: center;
   margin-block: 10px;
 }
 .inputbox {
@@ -95,4 +96,9 @@ span {
 input[type="checkbox"] {
   width: 20px;
   cursor: pointer;
+}
+@media (max-width: 1000px) {
+  .mainbox {
+    margin: 20px;
+  }
 }
